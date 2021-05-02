@@ -285,6 +285,9 @@ describe('Should be able to get order confirmation using klarna payment', functi
             .log('user click checkout pay button from checkout page');
         // TODO: Here user takes to Klarna payment page, its failed here with session ID wrong.
 
+
+
+
         cy.wait('@klarnaPayment', responseTimeout).then(xhr => {
             cy.log(`traceId: ${xhr.response.headers["x-trace-id"]}`);
             expect(xhr.response.statusCode).to.eq(200);
