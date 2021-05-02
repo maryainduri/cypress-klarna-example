@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://tlqa:1000parrots@trinnylondon-dev.com",
+  "pageLoadTimeout": 60000,
+  "video": false,
+  "screenshotOnRunFailure": false,
+  "chromeWebSecurity": false,
+  "retries": 1
+}

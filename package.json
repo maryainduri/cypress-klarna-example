@@ -1,0 +1,17 @@
+{
+  "name": "cypress-tl-klarna",
+  "version": "1.0.0",
+  "description": "TL website Klarna tests using Cypress",
+  "main": "",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": {
+    "name": "Marya Induri",
+    "email": "induri@trinnylondon.com"
+  },
+  "devDependencies": {
+    "cypress": "^7.2.0",
+    "faker": "^5.5.3"
+  }
+}
