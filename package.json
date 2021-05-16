@@ -4,14 +4,15 @@
   "description": "TL website Klarna tests using Cypress",
   "main": "",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress run --browser chrome --spec cypress/integration/*.spec.js",
+    "test:new": "cypress open"
   },
   "author": {
     "name": "Marya Induri",
     "email": "induri@trinnylondon.com"
   },
   "devDependencies": {
-    "cypress": "^7.2.0",
+    "cypress": "^7.3.0",
     "faker": "^5.5.3"
   }
 }
